@@ -1,5 +1,7 @@
+import socket
+
 def main():
-  print("Hello")
+  print("{0} is alive".format(socket.gethostname()))
 
 if __name__ == "__main__":
   main()
